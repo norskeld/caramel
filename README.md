@@ -4,4 +4,4 @@ Minimal template for OCaml projects.
 
 ## License
 
-[MIT].
+[MIT](LICENSE).
