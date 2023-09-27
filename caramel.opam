@@ -9,9 +9,10 @@ tags: ["template"]
 homepage: "https://github.com/norskeld/caramel"
 bug-reports: "https://github.com/norskeld/caramel/issues"
 depends: [
-  "ocaml"
+  "ocaml" {>= "5.0.0"}
+  "ocamlformat" {= "0.26.1"}
+  "ppx_deriving" {= "5.2.1"}
   "dune" {>= "3.7"}
-  "ppx_deriving"
   "odoc" {with-doc}
 ]
 build: [
