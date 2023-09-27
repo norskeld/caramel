@@ -1,0 +1,35 @@
+name: checks
+
+on:
+  - pull_request
+  - push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Use OCaml 5.1.0
+        uses: ocaml/setup-ocaml@v2
+        with:
+          ocaml-compiler: 5.1.0
+
+      - run: opam install . --deps-only
+      - run: opam exec -- dune build
+
+  lint-fmt:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Use OCaml 5.1.0
+        uses: ocaml/setup-ocaml@v2
+        with:
+          ocaml-compiler: 5.1.0
+          dune-cache: true
+
+      - name: Lint fmt
+        uses: ocaml/setup-ocaml/lint-fmt@v2
