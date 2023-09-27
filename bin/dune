@@ -1,0 +1,6 @@
+(executable
+ (name main)
+ (public_name caramel)
+ (libraries caramel)
+ (preprocess
+  (pps ppx_deriving.show)))

@@ -1,0 +1,5 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "ocamllabs.ocaml-platform",
+  "editor.rulers": [80]
+}
