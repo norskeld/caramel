@@ -15,8 +15,8 @@
 
 (package
  (name caramel)
- (synopsis "Minimal template for OCaml projects.")
- (description "Minimal template for OCaml projects.")
+ (synopsis "Minimal template for OCaml projects")
+ (description "Minimal template for OCaml projects")
  (depends
   (ocaml
    (>= 5.0.0))
