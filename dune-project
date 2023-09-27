@@ -20,8 +20,6 @@
  (depends
   (ocaml
    (>= 5.0.0))
-  (ocamlformat
-   (= 0.26.1))
   (ppx_deriving
    (= 5.2.1))
   dune)
