@@ -7,9 +7,9 @@
 (source
  (github norskeld/caramel))
 
-(authors "Vladislav Mamon <hello@vm.codes>")
+(authors "Vladislav Mamon <vlad@nrsk.dev>")
 
-(maintainers "Vladislav Mamon <hello@vm.codes>")
+(maintainers "Vladislav Mamon <vlad@nrsk.dev>")
 
 (license MIT)
 
