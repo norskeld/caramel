@@ -2,8 +2,8 @@
 opam-version: "2.0"
 synopsis: "Minimal template for OCaml projects"
 description: "Minimal template for OCaml projects"
-maintainer: ["Vladislav Mamon <hello@vm.codes>"]
-authors: ["Vladislav Mamon <hello@vm.codes>"]
+maintainer: ["Vladislav Mamon <vlad@nrsk.dev>"]
+authors: ["Vladislav Mamon <vlad@nrsk.dev>"]
 license: "MIT"
 tags: ["template"]
 homepage: "https://github.com/norskeld/caramel"
